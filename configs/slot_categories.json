@@ -1,0 +1,13 @@
+{
+  "bed": ["bed", "bunk_bed"],
+  "nightstand": ["nightstand", "side_table"],
+  "desk": ["desk"],
+  "chair": ["chair", "office_chair", "armchair"],
+  "rug": ["rug"],
+  "wardrobe": ["wardrobe", "cabinet", "dresser", "bookcase"],
+  "plant": ["plant", "flower_in_vase", "vase"],
+  "floor_lamp": ["floor_lamp"],
+  "table_lamp": ["table_lamp"],
+  "wall_art": ["wall_art"],
+  "ceiling_lamp": ["ceiling_lamp"]
+}

@@ -1,0 +1,8 @@
+{
+  "nightstand": ["coffee table", "dining table", "desk", "dresser", "wall-mounted", "lamp", "vase", "stool", "ottoman"],
+  "desk": ["dining table", "coffee table", "console table", "side table", "vanity", "sink", "outdoor table"],
+  "chair": ["sofa", "bench", "stool", "ottoman", "swing chair", "outdoor adirondack"],
+  "bed": ["mattress protector", "bedclothes", "pillow", "canopy outdoor", "swing seat"],
+  "plant": ["christmas tree", "lamp", "umbrella", "sculpture"],
+  "wall_art": ["wall lamp", "wall mirror", "showerhead", "bidet", "wall-mounted sink"]
+}

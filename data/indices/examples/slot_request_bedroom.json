@@ -1,0 +1,19 @@
+{
+  "slots": [
+    {
+      "slot_id": "desk_01",
+      "target_category": "desk",
+      "style_preference": ["modern", "minimalist"],
+      "support_class": "floor",
+      "negative_terms": ["dining table", "coffee table", "sink", "vanity"]
+    },
+    {
+      "slot_id": "nightstand_pair",
+      "target_category": "nightstand",
+      "style_preference": ["modern"],
+      "support_class": "floor",
+      "count": 2,
+      "pairing": "same_asset"
+    }
+  ]
+}

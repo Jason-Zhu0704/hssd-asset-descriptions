@@ -21,3 +21,31 @@ Structured dataset repository for HSSD asset retrieval.
 
 - Canonical source for downstream retrieval is `data/raw/hssd_asset_descriptions.jsonl`.
 - `data/processed/asset_index.jsonl` is the structured index for slot-aware retrieval and rerank.
+
+## Retrieval Code
+
+### 1) Build per-category indices
+
+```bash
+python scripts/04_build_indices.py \
+  --input data/processed/asset_index.jsonl \
+  --output-dir data/indices
+```
+
+### 2) Run slot-aware retrieval
+
+```bash
+python scripts/05_retrieve_for_scene.py \
+  --request data/indices/examples/slot_request_bedroom.json \
+  --indices-dir data/indices \
+  --slot-categories configs/slot_categories.json \
+  --negative-terms configs/negative_terms.json \
+  --top-k 10 \
+  --output data/indices/examples/retrieval_result_bedroom.json
+```
+
+Core logic:
+- category gating via `configs/slot_categories.json`
+- clean-text token similarity + support/style/color/quality scores
+- negative-term penalties + composite penalties
+- pair binding for `count>1` and `pairing=same_asset`

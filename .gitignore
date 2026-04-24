@@ -1,0 +1,7 @@
+# Generated per-category indices
+/data/indices/*.jsonl
+/data/indices/manifest.json
+
+# Keep examples
+!/data/indices/examples/
+!/data/indices/examples/*.json

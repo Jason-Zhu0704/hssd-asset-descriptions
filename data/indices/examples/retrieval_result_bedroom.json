@@ -1,0 +1,141 @@
+{
+  "results": [
+    {
+      "slot_id": "desk_01",
+      "target_category": "desk",
+      "top_candidates": [
+        {
+          "asset_id": "2aa6ddd969d37db340725a8fcf11d95df87023f6",
+          "slot_category": "desk",
+          "score": 0.5658,
+          "reason": "category=desk; semantic=0.08; support=floor; style=['minimalist']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "5ac3f26dcc804c3f4329c3b95eafcf3c06cffd79",
+          "slot_category": "desk",
+          "score": 0.5649,
+          "reason": "category=desk; semantic=0.08; support=floor; style=['minimalist']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "f518004977c4bee3235ed41298e120a1bafb6ada",
+          "slot_category": "desk",
+          "score": 0.5649,
+          "reason": "category=desk; semantic=0.08; support=floor; style=['minimalist']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "2a1b54fedd2a492220ebf3e97243dec9f9cc8d85",
+          "slot_category": "desk",
+          "score": 0.5636,
+          "reason": "category=desk; semantic=0.07; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "a858cba39573583f6aff0a31d237bcebabaaf503",
+          "slot_category": "desk",
+          "score": 0.5632,
+          "reason": "category=desk; semantic=0.07; support=floor; style=['minimalist']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "ead061a7175f0ae5cbd6912f79a4b5139d7095f5",
+          "slot_category": "desk",
+          "score": 0.5632,
+          "reason": "category=desk; semantic=0.07; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "ecf01604cd0958929fb26e0be43329844fa20e55",
+          "slot_category": "desk",
+          "score": 0.5628,
+          "reason": "category=desk; semantic=0.07; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "0e149dc0640ef51aa60654a574007d0cbc13dcdc",
+          "slot_category": "desk",
+          "score": 0.5625,
+          "reason": "category=desk; semantic=0.07; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "abbf8a4b081a056da7258544be89aabb37fd7a10",
+          "slot_category": "desk",
+          "score": 0.5625,
+          "reason": "category=desk; semantic=0.07; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "f67e0621273b7a530c00764195df0cc8ce1772af",
+          "slot_category": "desk",
+          "score": 0.5625,
+          "reason": "category=desk; semantic=0.07; support=floor; style=['minimalist']; neg_hits=[]; composite=False"
+        }
+      ]
+    },
+    {
+      "slot_id": "nightstand_pair",
+      "target_category": "nightstand",
+      "top_candidates": [
+        {
+          "asset_id": "03639dab61b6903ff319e047b008cb6abec971c6",
+          "slot_category": "nightstand",
+          "score": 0.5604,
+          "reason": "category=nightstand; semantic=0.06; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "037f34132f162235d80ce46f67c4fa2238d94da0",
+          "slot_category": "nightstand",
+          "score": 0.5604,
+          "reason": "category=nightstand; semantic=0.06; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "3e4790548c158671fec162757053201da04b6259",
+          "slot_category": "nightstand",
+          "score": 0.5604,
+          "reason": "category=nightstand; semantic=0.06; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "df43875279fa8ba60adf1cfec4e5fbc7f353525e",
+          "slot_category": "nightstand",
+          "score": 0.5601,
+          "reason": "category=nightstand; semantic=0.06; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "fa38edfc82a3a32fb84aadf0c8b88cd9cddf9141",
+          "slot_category": "nightstand",
+          "score": 0.5601,
+          "reason": "category=nightstand; semantic=0.06; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "fc0ff877237969033d32f3ce1012b4221011e2c2",
+          "slot_category": "nightstand",
+          "score": 0.5601,
+          "reason": "category=nightstand; semantic=0.06; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "01362ea241206b5668fb03f345c4637fd9386c8a",
+          "slot_category": "nightstand",
+          "score": 0.5597,
+          "reason": "category=nightstand; semantic=0.06; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "31653c084558e1ecb286adf63a305d914aa3c98b",
+          "slot_category": "nightstand",
+          "score": 0.5597,
+          "reason": "category=nightstand; semantic=0.06; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "a5e7d10d32aedfdd4b8118801a537f00807a3b4a",
+          "slot_category": "nightstand",
+          "score": 0.5594,
+          "reason": "category=nightstand; semantic=0.05; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        },
+        {
+          "asset_id": "7dd55651012d3cec11a14ef934ef669c71413d3d",
+          "slot_category": "nightstand",
+          "score": 0.5591,
+          "reason": "category=nightstand; semantic=0.05; support=floor; style=['modern']; neg_hits=[]; composite=False"
+        }
+      ],
+      "pair_binding": {
+        "count": 2,
+        "pairing": "same_asset",
+        "selected_asset_id": "03639dab61b6903ff319e047b008cb6abec971c6"
+      }
+    }
+  ]
+}
