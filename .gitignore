@@ -5,3 +5,7 @@
 # Keep examples
 !/data/indices/examples/
 !/data/indices/examples/*.json
+
+# Python cache
+__pycache__/
+*.pyc
