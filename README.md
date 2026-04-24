@@ -1,25 +1,23 @@
 # HSSD Asset Descriptions
 
-Preprocessed artifacts for HSSD asset retrieval and description workflows.
+Structured dataset repository for HSSD asset retrieval.
 
-## Files
+## Repository Layout
 
-- `hssd_asset_descriptions.jsonl`  
-  Canonical per-asset description records (one JSON object per line).
+- `data/raw/`
+  - `hssd_asset_descriptions.jsonl`: latest repaired description records.
+  - `hssd_asset_descriptions.with_images.jsonl`: descriptions with image-linked generation fields.
+  - `hssd_asset_index.jsonl`: raw HSSD index metadata (asset_id/mesh_id/name/synset/buckets).
+  - `object_categories.json`: coarse category mapping (`large_objects`, `small_objects`, etc.).
 
-- `hssd_asset_descriptions.db`  
-  SQLite version of the descriptions (`hssd_assets` table) for fast querying.
+- `data/processed/`
+  - `asset_index.jsonl`: normalized retrieval index with derived fields (slot/support/composite/clean text).
+  - `asset_index_summary.json`: generation summary for `asset_index.jsonl`.
 
-- `hssd_asset_descriptions.with_images.jsonl`  
-  Description records enriched with image-related fields used during generation/debug.
-
-- `hssd_asset_index.jsonl`  
-  Asset index metadata (asset IDs, mesh IDs, categories/synsets, names).
-
-- `object_categories.json`  
-  Category mapping file used by SceneSmith preprocessing/retrieval pipeline.
+- `data/sqlite/`
+  - `hssd_asset_descriptions.db`: SQLite mirror of `data/raw/hssd_asset_descriptions.jsonl` in table `hssd_assets`.
 
 ## Notes
 
-- This repository stores only compact preprocessed metadata and description artifacts.
-- Raw HSSD mesh assets (`objects/*.glb`, `stages/*.glb`) are hosted separately in the HSSD models dataset repository.
+- Canonical source for downstream retrieval is `data/raw/hssd_asset_descriptions.jsonl`.
+- `data/processed/asset_index.jsonl` is the structured index for slot-aware retrieval and rerank.
